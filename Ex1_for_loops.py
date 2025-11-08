@@ -10,7 +10,7 @@
 #
 # Example (syntax only):
 # for i in range(5):
-#     print("This will print 5 times")
+# print("This will print 5 times")
 #
 # You can also use variables and input inside loops to make your programs dynamic.
 # -------------------------------------------
@@ -30,6 +30,8 @@
 #     print("Hello number", i)
 #
 # Write your code below:
+#for i in range(5):
+#    print(f"Message number {i+1}")
 
 
 # Task 2: Counting with for loops
@@ -46,6 +48,13 @@
 #     print(i)
 #
 # Write your code below:
+print("Counting up...")
+for i in range(1, 11):
+    print(i)
+print("Counting down...")   
+for i in range(10,0,-1):
+    print(i)
+
 
 
 # Task 3: Using for loops with user input
@@ -62,6 +71,9 @@
 #     print("This is loop", i + 1)
 #
 # Write your code below:
+times = int(input ("How many times you want to repeat the message?:"))
+for i in range (times):
+    print ("This is loop", {i + 1})
 
 
 # -------------------------------------------
